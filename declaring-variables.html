@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Day 1</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <script>
+        let studentName = "Isaias Palma";
+        let studentAge = 33;
+        let studentGrade = 2;
+        let studentAttendanceStatus = true;
+
+        // For this, go into the browser and ispect element. The console option will let you see the JS 
+        console.log("Student Name: " + studentName);
+        console.log("Student Age: " + studentAge);
+        console.log("Student Grade: " + studentGrade);
+        // this is a ternary operator that simplifies the determination of the boolean
+        // it takes the condition which is the attendance status is this case and returns one of the two expressions
+        // if true it returns the first one (Present) if false it returns the second (Absent)
+        console.log("Attendance Status: " + (studentAttendanceStatus ? "Present" : "Absent"));
+    </script>
+</body>
+</html>
